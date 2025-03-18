@@ -1,7 +1,7 @@
 return {
-  "sainnhe/sonokai",
+  "folke/tokyonight.nvim",
   priority = 1000,
   config = function()
-    vim.cmd("colorscheme sonokai")
+    vim.cmd("colorscheme tokyonight")
   end
 }

@@ -22,14 +22,13 @@ return {
       },
       -- ensure these language parsers are installed
       ensure_installed = {
+        "markdown",
+        "markdown_inline",
+        "bash",
+        "lua",
+        "gitignore",
         "c",
         "cpp",
-        "css",
-        "gitignore",
-        "html",
-        "lua",
-        "make",
-        "python",
       },
       incremental_selection = {
         enable = true,

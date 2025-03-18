@@ -27,13 +27,10 @@ return {
     mason_lspconfig.setup({
       -- list of servers for mason to install
       ensure_installed = {
-        "clangd", -- c/c++
-        "cssls", -- CSS
         "html",
-        "lua_ls", -- lua
-        "autotools_ls", -- make
-        "marksman", -- Markdown
-        "pyright", -- Python
+        "cssls",
+        "lua_ls",
+        "pyright",
       },
     })
 
@@ -43,8 +40,6 @@ return {
         "stylua", -- lua formatter
         "isort", -- python formatter
         "black", -- python formatter
-        "pylint",
-        "eslint_d",
       },
     })
   end,
